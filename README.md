@@ -17,7 +17,7 @@ Put `http://localhost:8082/testers?countries=[country]&devices=[device1]&devices
 Multiple variables countries & devices are supported
 
 ##### 2) JSON
-Use ex Postman and send GET request with JSON in body
+Use ex Postman and send GET request with JSON in body -- `/testers/json`
 
 ```
 {
