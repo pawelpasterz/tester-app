@@ -1,0 +1,13 @@
+server:
+  port: ${SERVER_PORT:8088}
+task:
+  docker:
+    enabled: ${DOCKER_ENABLED:false}
+  mongo:
+    servers: ${MONGO_SERVERS:localhost:27017}
+    uri: ${MONGO_URI}
+    credentials:
+      username: ${MONGO_USERNAME:}
+      password: ${MONGO_PASSWORD:}
+    database:
+      test: ${MONGO_DATABASE_TEST:applause}
